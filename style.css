@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body{
+    background-color: #E9DAC1;
+    color: #2C3333;
+    font-family: 'Roboto', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: black 1px solid;
+    width: 400px;
+} 
+
+h2{
+    text-align: center;
+}
+
+input{
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 0.5px solid rgb(182, 173, 173);
+outline: none;
+margin: 10px 50px 10px 20px;
+background-color: transparent;
+width: 100px;
+}
+
+.name{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.address{
+    width: 300px;
+}
+
+ .details{
+    display: inline-block;
+    width: 90px;
+    margin-left: 20px;
+ } 
+
+.pincode{
+    width: 50px;
+}
+
+.state,.country{
+    width: 80px;
+}
+
+label{
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 22px;
+}
+
+button{
+    width: auto;
+    margin: 25px auto 50px auto;
+    font-size: 14px;
+    padding:2px 10px 2px 10px;
+}
+
+.gender,.address{
+    margin-left: 20px;
+}
+
+.food{
+    font-size: 13px;
+    font-family:serif;
+    padding-left: 10px;
+    border-top: black dotted 1px;
+    padding-right: 5px;
+    margin: 8px 15px 10px 20px;
+}
+
+.table{
+    margin:50px auto 50px auto;
+    width: 800px;
+    border-collapse: collapse;  
+} 
+
+#myTable tr:nth-child(even){
+    background-color: #ddd;
+}
+
+table th{
+    background: cornflowerblue;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 7px; 
+}
+
+tbody td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+input[type=checkbox]{
+    margin: 0;
+    width: 15px;
+    height: 10px;
+}
+
